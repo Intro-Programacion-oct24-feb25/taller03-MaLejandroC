@@ -14,7 +14,16 @@ public class Ejercicio05 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int var= 2;
+        int var2= 12;
+        int var3= 1;
+        int var4=3;
+        double resultado = (Math.pow(var, 2) + var2 - var3)/ var4;
+
+        System.out.println(resultado);
+        
         // TODO code application logic here
     }
+    
     
 }
